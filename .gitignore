@@ -1,0 +1,73 @@
+# ==============================================================================
+# ParaliSetu .gitignore - Environment & Security Standard
+# Compliant with Hackathon Rule 8 (Secret protection & build hygiene)
+# ==============================================================================
+
+# Secrets, Credentials, and Cloud Profiles
+.env*
+*.pem
+*.key
+.aws/
+*.pfx
+*.p12
+*.cer
+*.crt
+*.keystore
+secrets.*
+credentials.*
+
+# Archives and Packages
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+
+# Python & Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+pip-wheel-metadata/
+
+# Node.js & Web Build Outputs
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+out/
+.next/
+coverage/
+
+# Flutter, Dart & Mobile Builds
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+android/.gradle/
+android/app/build/
+ios/Pods/
+ios/.symlinks/
+*.apk
+*.aab
+*.ipa
+
+# System & IDE files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
