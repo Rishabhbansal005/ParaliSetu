@@ -33,5 +33,5 @@ Before any commit is created:
 ## 4. Remote Management & Integrity
 - **Canonical Remote**: `https://github.com/Rishabhbansal005/ParaliSetu.git`
 - **Strict Prohibition**: The legacy repository (`Rishabhbansal005/Parali-setu`) must never be added as a remote or referenced.
-- **No History Manipulation**: `git push --force`, rebase rewrites of published commits, and commit backdating are strictly prohibited.
+- **No History Manipulation**: `git push --force`, rebase rewrites of published commits, and commit backdating are strictly prohibited. The first commit (`c19fef7`) has a placeholder author email by mistake and history was intentionally not rewritten.
 - **Push Reporting**: After every push, the agent must report the branch name, commit hash, and list of files modified.
